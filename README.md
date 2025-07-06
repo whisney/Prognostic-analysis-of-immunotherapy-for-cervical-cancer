@@ -11,9 +11,9 @@ Development and Validation of a Deep Learning Model for Predicting Immunotherapy
 * SimpleITK
 * lifelines
 
-* ## Data preparation
-* First, the ROIs of the tumors in non-enhanced CT (CT_P), contrast-enhanced CT (CT_Z), non-enhanced MR (MR_P), and contrast-enhanced MR (MR_Z) images are segmented manually or automatically. The original images and segmentation masks should be placed in the **Nii_Data** folder in the following form and name:
-* ```
+## Data preparation
+First, the ROIs of the tumors in non-enhanced CT (CT_P), contrast-enhanced CT (CT_Z), non-enhanced MR (MR_P), and contrast-enhanced MR (MR_Z) images are segmented manually or automatically. The original images and segmentation masks should be placed in the **Nii_Data** folder in the following form and name:
+```
 - Nii_Data
   - ID001
     - CT_P.nii.gz
