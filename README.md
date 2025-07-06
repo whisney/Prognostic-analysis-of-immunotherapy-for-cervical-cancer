@@ -40,6 +40,12 @@ An Excel file (metadata/data_all.xlsx), which stores clinical information for mo
 | ID002 | 0 | 76 | 3 | 0 | 4 | 2 | 1 | 44.2 | 0.33 | 3.3 | 203 | 25.1 | 1 | 0 | 29 | 0 | 29 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
+Before starting training, ROI region needs to be cropped and data needs to be divided into training sets and verification sets. You can run this step with the following command:
+```
+python crop_rois.py
+python Stratified_split.py
+```
+
 ## Model training
 For training therapeutic response prediction model, you can run:
 ```
