@@ -41,3 +41,15 @@ An Excel file (metadata/data_all.xlsx), which stores clinical information for mo
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 ## Model training
+For training therapeutic response prediction model, you can run:
+```
+python train_Response.py
+```
+For training survival analysis model, you can run:
+```
+python train_Survival.py --task OS
+```
+For training progress-free survival analysis model, you can run:
+```
+python train_Survival.py --task PFS
+```
