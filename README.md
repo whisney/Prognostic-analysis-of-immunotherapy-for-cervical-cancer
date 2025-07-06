@@ -35,7 +35,8 @@ First, the ROIs of the tumors in non-enhanced CT (CT_P), contrast-enhanced CT (C
 An Excel file (metadata/Response.xlsx), which stores clinical information for therapeutic response prediction, is required and is presented in the format below:
 
 | ID | Landm | age | tnm | Past | Initial | Number | Type | ALB | LM | ANC | PLT | SCC | Label |
-| :-----: | :----: | :----: | :----: | :-----:  :-----:  :-----:  :-----:  :-----:  :-----:  :-----:  :-----:  :-----:  :-----: 
-| ID001 | 53 | male | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| ID002 | 51 | female | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| :-----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| ID001 | 1 | 68 | 2 | 7 | 0 | 4 | 1 | 40.7 | 0.51 | 3.43 | 262 | 3.6 | 0 |
+| ID002 | 0 | 76 | 3 | 0 | 4 | 2 | 1 | 44.2 | 0.33 | 3.3 | 203 | 25.1 | 1 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+
