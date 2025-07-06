@@ -23,7 +23,7 @@ lr_max = 0.00001
 L2 = 0.0001
 input_size = (16, 96, 96)
 data_dir = 'Nii_Data_ROIs'
-metadata_path = 'metadata/Response.xlsx'
+metadata_path = 'metadata/data_all.xlsx'
 split_path = 'train_val_split.pkl'
 
 save_dir = 'trained_models/Response/bs{}_epoch{}'.format(args.bs, args.epoch)
